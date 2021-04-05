@@ -10,7 +10,5 @@ START:; the main program, like main of C++
     MOV  SI,  0
     SUB  SI,  -91
     CBW; added line to pause and watch the result of last line
-    ;至于为什么要用英语注释
-    ;y i use eng to annotate
 CODES  ENDS
     END   START
