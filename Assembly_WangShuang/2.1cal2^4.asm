@@ -6,5 +6,6 @@ CODES SEGMENT
         ADD  AX, AX
         ADD  AX, AX
         ADD  AX, AX
+        INT  21; return to DOS
     CODES ENDS
 END START
