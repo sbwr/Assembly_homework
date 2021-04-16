@@ -6,4 +6,5 @@
  000A0H 000B0H 00011H CODE               
 
 Program entry point at 000A:0000
+Warning: No stack
 
