@@ -1,3 +1,4 @@
+; 题目见work5.md
 .model small
 .data                   ;定义数据段    DATA SEGMENT 
 .const ;定义常数段（可选）
