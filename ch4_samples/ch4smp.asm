@@ -4,7 +4,7 @@ stack segment
 stack ends
 data segment
     msg  db "Hello!",0dh,0ah,'$'';定义消息 若干个byte组成
-const = 4c00h
+    const1 = 4c00h
 data ends
 code segment
 main proc far
@@ -14,7 +14,7 @@ mov ds,ax
 mov ah,09h
 mov dx,offset msg
 int 21h
-mov ax,const
+mov ax,const1
 int 21h
 main endp
 code ends
