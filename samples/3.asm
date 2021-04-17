@@ -15,7 +15,7 @@ START:
 	MOV		CX,0
 	PUSH	SI			;为了让下面第一次不等时候用上 
 COMPARE:
-	MOV		AL,[SI]		;cmp只能mem,reg或者reg,mem不能mem,mem 
+	MOV		AL,[SI]		;cmp只能 mem,reg 或者 reg,mem 不能 mem,mem 
 	CMP 	AL,[DI]	
 	JE		EQUAL
 	JMP		UEQUAL
